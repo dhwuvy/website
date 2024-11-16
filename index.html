@@ -1,9 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmine's Portfolio</title>
+    <style>
+        /* Base Reset */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: #333;
+            color: #fff;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 1rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            margin: 1rem 0;
+            font-size: 1.25rem;
+        }
+
+        .hero a {
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            background: white;
+            color: #333;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        .hero a:hover {
+            background: #f4f4f9;
+        }
+
+        /* About Section */
+        .about {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+        }
+
+        .about p {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #667eea;
+        }
+    </style>
+</head>
+
 <body>
+    <nav>
+        <div>Jasmine's Portfolio</div>
+        <div>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
 
-<h1>Dhruv</h1>
-<p>Last updated 11/15/2024</p>
+    <div class="hero">
+        <div>
+            <h1>Hello, I'm Jasmine</h1>
+            <p>Graphic Designer • Creator • Dreamer</p>
+            <a href="#work">View My Work</a>
+        </div>
+    </div>
 
+    <section id="about" class="about">
+        <img src="https://via.placeholder.com/150" alt="Jasmine's Photo">
+        <h2>About Me</h2>
+        <p>
+            I'm a graphic design student passionate about creating beautiful and functional designs. I love exploring new
+            trends, learning new tools, and bringing ideas to life.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jasmine's Portfolio | <a href="mailto:example@example.com">Contact Me</a></p>
+    </footer>
 </body>
+
 </html>
+
